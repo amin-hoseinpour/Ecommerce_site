@@ -1,314 +1,285 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>فروشگاه</title>
-  </head>
 
-  <body>
-    <!-- start header top -->
-    <div class="container-fluid header-top-bg-color">
-      <div class="container text-white">
-        <div class="row d-flex justify-content-center align-items-center pt-2">
-          <div class="col-sm-12 col-md-6 header-top-font">
-            ارسال رایگان به تمام نقاط کشور
-          </div>
-          <div class="col-sm-12 col-md-6 pe-0">
-            <nav class="nav d-flex justify-content-end align-items-center">
-              <a
-                class="nav-link text-white header-top-font border-end border-secondary"
-                aria-current="page"
-                href="#"
-                >آدرس فروشگاه</a
-              >
-              <a
-                class="nav-link text-white header-top-font border-end border-secondary"
-                href="#"
-                >پیگیری سفارش</a
-              >
-              <a
-                class="nav-link text-white header-top-font border-end border-secondary"
-                href="#"
-                >تلفن:0910123456</a
-              >
-              <a
-                class="nav-link text-white header-top-font"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >ضمانت کیفیت محصولات</a
-              >
-            </nav>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/bootstrap.rtl.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>فروشگاه</title>
+</head>
+
+<body>
+  <!-- start header top -->
+  <div class="container-fluid header-top-bg-color">
+    <div class="container text-white">
+      <div class="row d-flex justify-content-center align-items-center pt-2">
+        <div class="col-sm-12 col-md-6 header-top-font">
+          ارسال رایگان به تمام نقاط کشور
         </div>
-      </div>
-      <div class="container ">
-        <div class="row text-white align-items-center">
-          <div class="col-sm-12 col-md-8">
-            <div class="input-group my-3">
-              <button
-                class="btn btn-secondary dropdown-toggle header-top-font"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                همه دسته بندی ها
-              </button>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item header-top-font" href="#">موبایل</a>
-                </li>
-                <li>
-                  <a class="dropdown-item header-top-font" href="#">کامپیوتر</a>
-                </li>
-                <li>
-                  <a class="dropdown-item header-top-font" href="#">آرایشی</a>
-                </li>
-                <li>
-                  <a class="dropdown-item header-top-font" href="#">تبلت</a>
-                </li>
-              </ul>
-              <input
-                type="text"
-                class="form-control header-top-font"
-                aria-label="Text input with dropdown button"
-              />
-              <button
-                class="btn btn-danger header-top-font"
-                type="button"
-                id="button-addon1"
-              >
-                بگرد
-              </button>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-4 my-3">
-            <div class="dropdown d-flex justify-content-end basket">
-              <a
-                class="btn btn-link text-white text-decoration-none border-0 dropdown-toggle"
-                href="#"
-                role="button"
-                id="dropdownMenuLink"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <i class="fa fa-shopping-cart sabad" aria-hidden="true"></i>
-                سبد خرید
-              </a>
-
-              <ul
-                class="dropdown-menu sabad_items"
-                aria-labelledby="dropdownMenuLink"
-              >
-                <li class="d-flex justify-content-around align-items-center">
-                  <a class="dropdown-item" href="#">
-                    <img
-                      src="assets/images/iphone.jpg"
-                      class="img-thumbnail"
-                      alt=""
-                    />
-                    <ul>
-                      <li><a href="#">گوشی آیفون12</a></li>
-                      <li><a href="#"> مدل پرومکس</a></li>
-                      <li><a href="#"> 1000,000 تومان </a></li>
-                    </ul>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      aria-label="Close"
-                    ></button>
-                  </a>
-                </li>
-                <li class="d-flex justify-content-around align-items-center">
-                  <a class="dropdown-item" href="#">
-                    <img
-                      src="assets/images/iphone.jpg"
-                      class="img-thumbnail"
-                      alt=""
-                    />
-                    <ul>
-                      <li><a href="#">گوشی آیفون12</a></li>
-                      <li><a href="#"> مدل پرومکس</a></li>
-                      <li><a href="#"> 1000,000 تومان </a></li>
-                    </ul>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      aria-label="Close"
-                    ></button>
-                  </a>
-                </li>
-                <li class="d-flex justify-content-around align-items-center">
-                  <a class="dropdown-item" href="#">
-                    <img
-                      src="assets/images/chair.jpg"
-                      class="img-thumbnail"
-                      alt=""
-                    />
-                    <ul>
-                      <li><a href="#">گوشی آیفون12</a></li>
-                      <li><a href="#"> مدل پرومکس</a></li>
-                      <li><a href="#"> 1000,000 تومان </a></li>
-                    </ul>
-                    <button
-                      type="button"
-                      class="btn-close"
-                      aria-label="Close"
-                    ></button>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- start nav container -->
-      <div class="container position-relative">
-        <div class="row">
-          <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid px-0 ">
-              <a class="navbar-brand text-info me-5" href="#">فروشگاه</a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon text-white">  <i class="fa fa-bars" aria-hidden="true"></i></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav custom-navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#"
-                      >خانه</a
-                    >
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle text-white"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      لوازم خانگی
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">لباسشویی</a></li>
-                      <li>
-                        <a class="dropdown-item" href="#">مبلمان</a>
-                      </li>
-
-                      <li>
-                        <a class="dropdown-item" href="#"
-                          >ظروف آشپزخانه</a
-                        >
-                      </li>
-                     
-                      
-                    </ul>
-                    
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle text-white"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      سوپر مارکت
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">تنقلات</a></li>
-                      <li>
-                        <a class="dropdown-item" href="#">میوه</a>
-                      </li>
-
-                      <li>
-                        <a class="dropdown-item" href="#"
-                          >خشکبار</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle text-white"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      لوازم دیجیتال
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">لپ تاپ</a></li>
-                      <li>
-                        <a class="dropdown-item" href="#">موبایل</a>
-                      </li>
-
-                      <li>
-                        <a class="dropdown-item" href="#"
-                          >کنسول بازی</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle text-white"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      لوازم خودرو
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">باطری</a></li>
-                      <li>
-                        <a class="dropdown-item" href="#">لاستیک</a>
-                      </li>
-
-                      <li>
-                        <a class="dropdown-item" href="#"
-                          >لنت و متعلقات</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">تماس با ما</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">درباره با ما</a>
-                  </li>
-                </ul>
-                <a href="#" class="text-warning">تخفیفات ویژه نوروزی</a>
-              </div>
-            </div>
+        <div class="col-sm-12 col-md-6 pe-0">
+          <nav class="nav d-flex justify-content-end align-items-center">
+            <a class="nav-link text-white header-top-font border-end border-secondary" aria-current="page" href="#">آدرس
+              فروشگاه</a>
+            <a class="nav-link text-white header-top-font border-end border-secondary" href="#">پیگیری سفارش</a>
+            <a class="nav-link text-white header-top-font border-end border-secondary" href="#">تلفن:0910123456</a>
+            <a class="nav-link text-white header-top-font" href="#" tabindex="-1" aria-disabled="true">ضمانت کیفیت
+              محصولات</a>
           </nav>
         </div>
       </div>
-      <!-- end nav container -->
     </div>
+    <div class="container ">
+      <div class="row text-white align-items-center">
+        <div class="col-sm-12 col-md-8">
+          <div class="input-group my-3">
+            <button class="btn btn-secondary dropdown-toggle header-top-font" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              همه دسته بندی ها
+            </button>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item header-top-font" href="#">موبایل</a>
+              </li>
+              <li>
+                <a class="dropdown-item header-top-font" href="#">کامپیوتر</a>
+              </li>
+              <li>
+                <a class="dropdown-item header-top-font" href="#">آرایشی</a>
+              </li>
+              <li>
+                <a class="dropdown-item header-top-font" href="#">تبلت</a>
+              </li>
+            </ul>
+            <input type="text" class="form-control header-top-font" aria-label="Text input with dropdown button" />
+            <button class="btn btn-success header-top-font" type="button" id="button-addon1">
+              بگرد
+            </button>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 my-3">
+          <div class="dropdown d-flex justify-content-end basket">
+            <a class="btn btn-link text-white text-decoration-none border-0 dropdown-toggle" href="#" role="button"
+              id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-shopping-cart sabad" aria-hidden="true"></i>
+              سبد خرید
+            </a>
 
-    <!-- end header top -->
+            <ul class="dropdown-menu sabad_items" aria-labelledby="dropdownMenuLink">
+              <li class="d-flex justify-content-around align-items-center">
+                <a class="dropdown-item" href="#">
+                  <img src="assets/images/iphone.jpg" class="img-thumbnail" alt="" />
+                  <ul>
+                    <li><a href="#">گوشی آیفون12</a></li>
+                    <li><a href="#"> مدل پرومکس</a></li>
+                    <li><a href="#"> 1000,000 تومان </a></li>
+                  </ul>
+                  <button type="button" class="btn-close" aria-label="Close"></button>
+                </a>
+              </li>
+              <li class="d-flex justify-content-around align-items-center">
+                <a class="dropdown-item" href="#">
+                  <img src="assets/images/iphone.jpg" class="img-thumbnail" alt="" />
+                  <ul>
+                    <li><a href="#">گوشی آیفون12</a></li>
+                    <li><a href="#"> مدل پرومکس</a></li>
+                    <li><a href="#"> 1000,000 تومان </a></li>
+                  </ul>
+                  <button type="button" class="btn-close" aria-label="Close"></button>
+                </a>
+              </li>
+              <li class="d-flex justify-content-around align-items-center">
+                <a class="dropdown-item" href="#">
+                  <img src="assets/images/chair.jpg" class="img-thumbnail" alt="" />
+                  <ul>
+                    <li><a href="#">گوشی آیفون12</a></li>
+                    <li><a href="#"> مدل پرومکس</a></li>
+                    <li><a href="#"> 1000,000 تومان </a></li>
+                  </ul>
+                  <button type="button" class="btn-close" aria-label="Close"></button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- start nav container -->
+    <div class="container position-relative">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid px-0 ">
+            <a class="navbar-brand text-info me-5" href="#">فروشگاه</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon text-white"> <i class="fa fa-bars" aria-hidden="true"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav custom-navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-white" aria-current="page" href="#">خانه</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    لوازم خانگی
+                  </a>
+                  <ul class="dropdown-menu border-0 shadow  has_sub_menu">
+                    <img class="position-absolute bottom-0 end-0" src="assets/images/home.png" alt="">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-3">
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i>
+                              لباسشویی</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i>
+                              مبلمان</a>
+                          </li>
 
-    <script src="assets/js/bootstap.bundle.min.js"></script>
-  </body>
+                          <li>
+                            <a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i> ظروف
+                              آشپزخانه</a>
+                          </li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i>
+                              لباسشویی</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i>
+                              مبلمان</a>
+                          </li>
+
+                          <li>
+                            <a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i> ظروف
+                              آشپزخانه</a>
+                          </li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i>
+                              لباسشویی</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i>
+                              مبلمان</a>
+                          </li>
+
+                          <li>
+                            <a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i> ظروف
+                              آشپزخانه</a>
+                          </li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i>
+                              لباسشویی</a></li>
+
+                        </div>
+                        <div class="col-sm-12 col-md-3">
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i>
+                              لباسشویی</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i>
+                              مبلمان</a>
+                          </li>
+
+                          <li>
+                            <a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i> ظروف
+                              آشپزخانه</a>
+                          </li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i>
+                              لباسشویی</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i>
+                              مبلمان</a>
+                          </li>
+
+                          <li>
+                            <a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i> ظروف
+                              آشپزخانه</a>
+                          </li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i>
+                              لباسشویی</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i>
+                              مبلمان</a>
+                          </li>
+
+                          <li>
+                            <a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i> ظروف
+                              آشپزخانه</a>
+                          </li>
+                          <li><a class="dropdown-item" href="#"><i class="fas fa-angle-left" aria-hidden="true"></i>
+                              لباسشویی</a></li>
+
+                        </div>
+                      </div>
+                    </div>
+                  </ul>
+
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    سوپر مارکت
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">تنقلات</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">میوه</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="#">خشکبار</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    لوازم دیجیتال
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">لپ تاپ</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">موبایل</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="#">کنسول بازی</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    لوازم خودرو
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">باطری</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">لاستیک</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="#">لنت و متعلقات</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">تماس با ما</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">درباره با ما</a>
+                </li>
+              </ul>
+              <a href="#" class="text-warning">تخفیفات ویژه نوروزی</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- end nav container -->
+  </div>
+
+  <!-- end header top -->
+
+  <script src="assets/js/bootstap.bundle.min.js"></script>
+</body>
+
 </html>

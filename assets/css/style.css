@@ -29,38 +29,48 @@ li {
 .basket a {
   background-color: transparent;
   font-size: 0.9rem;
-
 }
-.basket .sabad{
+.basket .sabad {
   vertical-align: -2px;
 }
-.basket a:hover , .basket a:focus {
+.basket a:hover,
+.basket a:focus {
   box-shadow: none !important;
 }
 
 .basket .dropdown-toggle::after {
   vertical-align: 0px;
 }
-.sabad_items li a img{
+.sabad_items li a img {
   width: 64px;
   height: 64px;
 }
-.sabad_items{
- min-width: 80%;
+.sabad_items {
+  min-width: 80%;
 }
-.sabad_items li a{
+.sabad_items li a {
   width: unset;
 }
-.custom-navbar-nav li a{
- font-size: 0.85rem;
+.custom-navbar-nav li a {
+  font-size: 0.85rem;
 }
 
-.nav-item{
+.nav-item {
   position: unset;
 }
 
-.dropdown-menu{
+.dropdown-menu {
   width: 100%;
+  background-image: linear-gradient(120deg, #fdfbfb 10%, #eef0f1 100%);
 }
-
-  
+.has_sub_menu a {
+  transition: all 0.3s ease;
+}
+.has_sub_menu li {
+  padding: 0.4rem !important;
+}
+.has_sub_menu a:hover {
+  background-color: rgb(255, 255, 255) !important;
+  color: red;
+  margin-right: 5px;
+}
