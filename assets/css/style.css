@@ -45,3 +45,22 @@ li {
   width: 64px;
   height: 64px;
 }
+.sabad_items{
+ min-width: 80%;
+}
+.sabad_items li a{
+  width: unset;
+}
+.custom-navbar-nav li a{
+ font-size: 0.85rem;
+}
+
+.nav-item{
+  position: unset;
+}
+
+.dropdown-menu{
+  width: 100%;
+}
+
+  
