@@ -59,9 +59,9 @@ li {
   position: unset;
 }
 
-.dropdown-menu {
+.nav-item .dropdown-menu {
   width: 100%;
-  background-image: linear-gradient(120deg, #fdfbfb 10%, #eef0f1 100%);
+  /* background-image: linear-gradient(120deg, #fdfbfb 10%, #eef0f1 100%); */
 }
 .has_sub_menu a {
   transition: all 0.3s ease;
@@ -74,3 +74,27 @@ li {
   color: red;
   margin-right: 5px;
 }
+
+.custom-col-md-3 {
+  flex: 0 0 20.8%;
+  width: 20.8%;
+}
+@media screen and (max-width:767px){
+  .custom-col-md-3 {
+    flex: 0 0 50%;
+    width: 50%;
+  }
+}
+@media screen and (max-width:992){
+  .custom-col-md-3 {
+    flex: 0 0 20.8%;
+    width: 20.8%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1340px !important;
+  }
+}
+

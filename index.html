@@ -17,16 +17,17 @@
   <div class="container-fluid header-top-bg-color">
     <div class="container text-white">
       <div class="row d-flex justify-content-center align-items-center pt-2">
-        <div class="col-sm-12 col-md-6 header-top-font">
+        <div class="col-sm-12 col-md-6 d-none d-lg-block header-top-font">
           ارسال رایگان به تمام نقاط کشور
         </div>
         <div class="col-sm-12 col-md-6 pe-0">
-          <nav class="nav d-flex justify-content-end align-items-center">
+          <nav class="nav d-flex justify-content-center justify-content-lg-end align-items-center">
             <a class="nav-link text-white header-top-font border-end border-secondary" aria-current="page" href="#">آدرس
               فروشگاه</a>
-            <a class="nav-link text-white header-top-font border-end border-secondary" href="#">پیگیری سفارش</a>
+            <a class="nav-link text-white header-top-font border-end  border-secondary" href="#">پیگیری سفارش</a>
             <a class="nav-link text-white header-top-font border-end border-secondary" href="#">تلفن:0910123456</a>
-            <a class="nav-link text-white header-top-font" href="#" tabindex="-1" aria-disabled="true">ضمانت کیفیت
+            <a class="nav-link text-white header-top-font d-none d-xl-block" href="#" tabindex="-1"
+              aria-disabled="true">ضمانت کیفیت
               محصولات</a>
           </nav>
         </div>
@@ -34,13 +35,13 @@
     </div>
     <div class="container ">
       <div class="row text-white align-items-center">
-        <div class="col-sm-12 col-md-8">
+        <div class="col-6 col-md-8">
           <div class="input-group my-3">
-            <button class="btn btn-secondary dropdown-toggle header-top-font" type="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
+            <button class="btn btn-secondary dropdown-toggle header-top-font d-none d-md-block" type="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
               همه دسته بندی ها
             </button>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu fix_width">
               <li>
                 <a class="dropdown-item header-top-font" href="#">موبایل</a>
               </li>
@@ -54,13 +55,14 @@
                 <a class="dropdown-item header-top-font" href="#">تبلت</a>
               </li>
             </ul>
-            <input type="text" class="form-control header-top-font" aria-label="Text input with dropdown button" />
+            <input type="text" class="form-control header-top-font" aria-label="Text input with dropdown button"
+              placeholder="محصول مورد نظرتان را وارد کنید" />
             <button class="btn btn-success header-top-font" type="button" id="button-addon1">
               بگرد
             </button>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 my-3">
+        <div class="col-6 col-md-4 my-3">
           <div class="dropdown d-flex justify-content-end basket">
             <a class="btn btn-link text-white text-decoration-none border-0 dropdown-toggle" href="#" role="button"
               id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -129,7 +131,7 @@
                     لوازم خانگی
                   </a>
                   <ul class="dropdown-menu border-0 shadow  has_sub_menu">
-                    <img class="position-absolute bottom-0 end-0" src="assets/images/home.png" alt="">
+                    <img class="position-absolute bottom-0 end-0 d-none d-lg-block" src="assets/images/home.png" alt="">
                     <div class="container">
                       <div class="row">
                         <div class="col-sm-12 col-md-3">
@@ -276,8 +278,73 @@
     </div>
     <!-- end nav container -->
   </div>
-
   <!-- end header top -->
+
+  <!-- start slider -->
+  <div class="container my-2">
+    <div class="row">
+      <div class="col-sm-12 col-md-7">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/images/b1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>فروشگاه اینترنتی مد و لباس</h5>
+                <p>دیجی‌استایل، پس از تجربه‌ی موفق فروشگاه اینترنتی دیجی‌کالا به صورت تخصصی پا به عرصه مد، پوشاک و سبک
+                  زندگی گذاشت</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/b8.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>خرید گوشی سامسونگ</h5>
+                <p>برند کره‌ای سامسونگ، با تولید سالانه‌ی گوشی‌های پرچمدار، میان‌رده و اقتصادی، یکی از پرطرفدارترین و
+                  محبوب‌ترین برندها در میان کاربران سراسر جهان از جمله ایران است.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/b9.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>شهر لوازم خانگی</h5>
+                <p>، بزرگترین فروشگاه تخصصی لوازم خانگی از انواع برندهای داخلی، در تهران</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-2 custom-col-md-3 mt-1">
+        <img class="img-fluid" src="assets/images/b4.jpg" alt="">
+      </div>
+      <div class="col-sm-12 col-md-3  custom-col-md-3 d-flex flex-column justify-content-between mt-1">
+        <img class="img-fluid" src="assets/images/b2.jpg" alt="">
+        <img class="img-fluid" src="assets/images/b3.jpg" alt="">
+      </div>
+
+
+    </div>
+  </div>
+  <!-- end slider -->
+
+
+
 
   <script src="assets/js/bootstap.bundle.min.js"></script>
 </body>
